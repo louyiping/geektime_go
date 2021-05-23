@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package payment.service.v1;
+
+import "google/api/annotations.proto";
+
+service Payment {
+    rpc PaymentAuth (PaymentAuthReq) returns (PaymentAuthReply) {
+    }
+}
+
+message PaymentAuthReq {
+
+}
+
+message PaymentAuthReply {
+
+}
